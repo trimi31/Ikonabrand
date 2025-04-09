@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - LogoSpark</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: radial-gradient(circle at top left, #1e1e1e, #111);
+      color: white;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .contact-info {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .contact-info span {
+      font-weight: bold;
+      color: #38bdf8;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #222;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #333;
+      color: white;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #4338ca;
+    }
+    .home-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .home-link a {
+      color: #4f46e5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      form {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <!-- Added Contact Info Section -->
+  <div class="contact-info">
+    <p>Nëse keni ndonjë pyetje ose keni nevojë për ndihmë, mos hezitoni të na kontaktoni në:</p>
+    <p>Phone: <span>+355 68 123 4567</span></p>
+  </div>
+
+  <form action="https://formspree.io/f/mgvapoqj" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="home-link">
+    <a href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>

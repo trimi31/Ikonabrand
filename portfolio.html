@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punimet Tona - Ikona Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #1a1a1a, #0e0e0e);
+      color: #fff;
+      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #8b5cf6;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #aaa;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .logo-box {
+      background: #1f1f1f;
+      padding: 1.5rem;
+      border-radius: 16px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .logo-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo-box img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      background-color: #2c2c2c;
+    }
+
+    .logo-box p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #ddd;
+    }
+
+    /* Testimonial Section */
+    .testimonials {
+      margin-top: 4rem;
+      background: #333;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+
+    .testimonial-box {
+      background: #444;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .testimonial-box:last-child {
+      margin-bottom: 0;
+    }
+
+    .testimonial-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonial-box p {
+      font-style: italic;
+      font-size: 1.1rem;
+      color: #ddd;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-box h4 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .logo-box img {
+        height: 150px;
+      }
+
+      .testimonials {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">← Kthehu në Faqen Kryesore</a></h1>
+    <h2>Shikoni disa nga projektet tona më të fundit të dizajnit të logos</h2>
+  </header>
+
+  <!-- Seksioni i Portofolit -->
+  <!-- Seksioni i Portofolit -->
+<div class="grid">
+  <div class="logo-box">
+    <img src="image/modern.png" alt="Logo e Modern Tech Co.">
+    <p>Modern Tech Co.</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/bloom.png" alt="Logo e Bloom Wellness">
+    <p>Bloom Wellness</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/bold.png" alt="Logo e Bold Finance">
+    <p>Bold Finance</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/luxury.png" alt="Logo e Luxury Living">
+    <p>Luxury Living</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/nova.png" alt="Logo e Nova AI">
+    <p>Nova AI</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/brew.jpg" alt="Logo e Fresh Brew Café">
+    <p>Fresh Brew Café</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/green.png" alt="Logo e GreenLeaf Organics">
+    <p>GreenLeaf Organics</p>
+  </div>
+  <div class="logo-box">
+    <img src="image/velco.png" alt="Logo e Velocity Motors">
+    <p>Velocity Motors</p>
+  </div>
+</div>
+
+
+
+  <!-- Seksioni i Komenteve -->
+  <section class="testimonials">
+    <h2>Çfarë Thonë Klientët Tanë</h2>
+    <div class="testimonial-box">
+      <p>"Ikona Brand e kuptoi vërtet vizionin tonë dhe na solli një logo që përfaqëson në mënyrë të përsosur mesazhin e markës sonë. Jemi jashtëzakonisht të kënaqur me rezultatin!"</p>
+      <h4>Jessica S., Modern Tech Co.</h4>
+    </div>
+
+    <div class="testimonial-box">
+      <p>"Na duhej një logo që të dukej moderne dhe freskuese, dhe Ikona Brand e realizoi me përpikëri! Profesionalizmi dhe kreativiteti i tyre ishin të jashtëzakonshëm."</p>
+      <h4>Mark W., Bloom Wellness</h4>
+    </div>
+
+    <div class="testimonial-box">
+      <p>"Të punosh me Ikona Brand ishte një përvojë shumë pozitive. Ata morën kohën për të kuptuar markën tonë dhe sollën në jetë vizionin tonë përmes logos së përsosur."</p>
+      <h4>David P., Bold Finance</h4>
+    </div>
+  </section>
+</body>
+</html>
